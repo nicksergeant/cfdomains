@@ -1,0 +1,18 @@
+{
+  "name": "cfdomains",
+  "version": "0.0.1",
+  "description": "A simple CLI for checking Cloudflare domains.",
+  "main": "index.js",
+  "repository": "git@github.com:nicksergeant/cfdomains.git",
+  "author": "Nick Sergeant (nick@nicksergeant.com)",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "prettier": "^1.18.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}
