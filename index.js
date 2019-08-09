@@ -10,7 +10,7 @@ const apiUrl = endpoint => ({
   url: `https://api.cloudflare.com/client/v4/${endpoint}`,
   headers: {
     'Content-Type': 'application/json',
-    'X-Auth-Email': 'nick@flxsoftware.com',
+    'X-Auth-Email': process.env.CLOUDFLARE_EMAIL,
     'X-Auth-Key': process.env.CLOUDFLARE_API_KEY
   }
 });
