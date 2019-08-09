@@ -58,7 +58,7 @@ const run = async () => {
 
     const expires = colorized({
       value: moment(d.expires_at).format('L'),
-      condition: moment(d.expires_at).isAfter(moment().add(12, 'months'))
+      condition: moment(d.expires_at).isAfter(moment().add(6, 'months'))
     });
 
     console.log(
