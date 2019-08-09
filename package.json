@@ -1,6 +1,6 @@
 {
   "name": "cfdomains",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A simple CLI for checking Cloudflare domains.",
   "main": "index.js",
   "repository": "git@github.com:nicksergeant/cfdomains.git",
@@ -8,6 +8,8 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "^2.4.2",
+    "dotenv": "^8.0.0",
+    "moment": "^2.24.0",
     "prettier": "^1.18.2",
     "request": "^2.88.0",
     "request-promise": "^4.2.4"
