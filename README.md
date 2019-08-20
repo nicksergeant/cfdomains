@@ -6,6 +6,7 @@ A simple CLI for checking Cloudflare domains.
 
 ```
 CLOUDFLARE_API_KEY=<my-api-key>
+CLOUDFLARE_EMAIL=<my-cloudflare-email>
 ```
 
 2. Run `./index.js`.
