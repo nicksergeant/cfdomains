@@ -33,7 +33,7 @@ const run = async () => {
   domains.result.map(d => {
     const nameLength = d.name.length;
 
-    if (nameLength > 20) {
+    if (nameLength > 21) {
       spacing = '\t';
     } else if (nameLength < 14) {
       spacing = '\t\t\t';
