@@ -9,3 +9,5 @@ CLOUDFLARE_API_KEY=<my-api-key>
 ```
 
 2. Run `./index.js`.
+
+![https://i.nick.sg/867a92237f1943c7acf069c3e7a3c100.png](https://i.nick.sg/867a92237f1943c7acf069c3e7a3c100.png)
