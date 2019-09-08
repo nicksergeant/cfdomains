@@ -4,7 +4,7 @@ require('dotenv').config();
 
 const moment = require('moment');
 const request = require('request-promise');
-const { blue, red, green } = require('chalk');
+const { red, green } = require('chalk');
 
 const apiUrl = endpoint => ({
   url: `https://api.cloudflare.com/client/v4/${endpoint}`,
