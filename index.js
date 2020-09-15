@@ -2,8 +2,8 @@
 
 require('dotenv').config();
 
+const axios = require('axios');
 const moment = require('moment');
-const request = require('request-promise');
 const { red, green } = require('chalk');
 
 const apiUrl = endpoint => ({
@@ -16,8 +16,8 @@ const apiUrl = endpoint => ({
 });
 
 const req = async endpoint => {
-  return await request(apiUrl(endpoint)).then(body => {
-    return JSON.parse(body);
+  return await axios(apiUrl(endpoint)).then(body => {
+    return body.data
   });
 };
 
